@@ -1,0 +1,180 @@
+.main{
+ box-sizing: border-box;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+min-height:93vh ;
+
+}
+
+.sidebar{
+    width: 18%;
+    background-color:#f5f6f8 ;
+    text-align: left;
+    height: 93vh;
+    align-self: start;
+    position: relative;
+  
+}
+.content{
+    width: 82%;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    text-align: left;
+}
+.searchbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+.search{
+    outline: none;
+    border: none;
+}
+.patienttext{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    align-content: center;
+   align-items: center;
+   justify-items: center;
+
+
+
+
+}
+.card{
+    height: 300px;
+    background-color:#f5f6f8;
+    width: 180px;
+    text-align:center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+   
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 7px 7px 12px rgb(221, 217, 217) ;
+}
+.cardimage{
+    width: "60%";
+    
+}
+.cardheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+.smith{
+    margin-top: -5px;
+    text-align: left;
+    padding-left: 20%;
+}
+.name{
+    text-align: left;
+    padding-left: 20%;
+}
+
+
+.status{
+    text-align: left;
+    padding-left: 20%;
+   
+}
+.meter{
+    text-align: left;
+    padding-left: 20%;
+}
+.empty{
+    border-bottom: 2px rgb(221, 217, 217) solid;
+    margin: 3% 0;
+ }
+ .last{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+ }
+ .button{
+     background-color: rgb(250, 250, 250);
+     border: 1px solid rgb(209, 200, 200);
+     border-radius: 8px;
+     padding: 7px 14px;
+ }
+ .sidebar1{
+     padding: 35% 20% 0 20%;
+     background-color: #f5f6f8;
+     height: 45%;
+    }
+    .empty2{
+        border-bottom: 8px rgb(221, 217, 217) solid;
+    }
+    .sidebar2{
+        width: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:20% auto 0 ;
+        padding: 8%;
+    }
+    .sidebar2 button{
+        background-color: #54f4ca;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .patiblue{
+        color: #4a8bee;
+    }
+    .plus{
+        color:#54f4ca ;
+        size: 20px;
+       margin-top: 60%;
+      
+    }
+    .card2{
+
+    height: 300px;
+    background-color:#f5f6f8;
+    width: 180px;
+    text-align:center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 2px rgb(221, 217, 217) dotted;
+   
+    }
+.sidebaricons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+.sidebartext{
+    font-size: 0.8rem;
+}
+.sideicon{
+    color: rgb(221, 217, 217);
+}
+.sidebaricons:hover>*{
+    color: #54f4ca;
+   
+}
+@media screen and (width<650px) {
+    .sidebar{
+        min-width: 150px;
+    }
+  
+    
+}
